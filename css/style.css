@@ -113,15 +113,15 @@ section.about .container .right h1 span{
 }
 
 section.about .container .right h3{
-    font-size: 1.rem;
-    margin-bottom: 1rem;
+    color: var(--ternary);
+    margin-bottom: 1.5rem;
     font-weight: 400;
 }
 
 section.about .container .right p{
     font-family: lato, Arial, Helvetica, sans-serif;
     color: var(--ternary);
-    line-height: 1.9;
+    line-height: 1.2;
     font-weight: 500;
     margin-bottom: 1.2rem; 
 }
