@@ -1,0 +1,92 @@
+@import 'utilities.css';
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    background-color: var(--dark);
+    font-family: poppins, Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: var(--dark);
+}
+
+header nav .left a{
+    color: var(--pure);
+    font-size: medium ; 
+    margin-left: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.15s ease ;
+    
+}
+
+header nav .left a:hover{
+    color: var(--primary);
+    text-decoration: underline;
+    font-size: 15px ; 
+}
+
+header nav{
+    padding: 1rem 0;
+}
+
+header nav .branding{
+    margin-right: 3rem;
+}
+
+.logos{
+    width: 90px;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.content .left img{
+    width: 400px;
+}
+
+.content .right{
+    color: var(--pure);
+}
+
+.content .right h6{
+    font-size: 1.6rem;
+    font-weight: 200;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.content .right h1{
+    font-size: 4rem;
+    font-weight: 200;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.content .right h1 span{
+    color: var(--primary);
+}
+
+.content .right p{
+    line-height: 1.8;
+    font-weight: 500;
+    margin-bottom: 3rem
+}
+
