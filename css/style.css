@@ -125,3 +125,68 @@ section.about .container .right p{
     font-weight: 500;
     margin-bottom: 1.2rem; 
 }
+
+section.projects{
+    padding: 6rem;
+    background-color: var(--light);
+}
+
+section.projects .container .top-projects h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+section.projects .container .top-projects h1 span{
+    color: var(--primary);
+}
+
+section.projects .container .top-projects h3{
+    color: var(--ternary);
+    /* margin-bottom: 1.5rem; */
+    font-weight: 400;
+}
+
+section.projects .container .buttom-projects{
+    background-color: var(--light);
+}   
+
+section.projects .container .buttom-projects .project-1{
+    padding: 3rem 2rem;
+    background: var(--pure);
+    position: relative;
+    transition: all 0.3s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+section.projects .container .buttom-projects .project-1:hover{
+    background: var(--dark);
+    color: var(--pure);
+}
+
+section.projects .container .buttom-projects .project-1 img{
+    position: absolute;
+    top: -3.5rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+section.projects .container .buttom-projects .project-1 h2{
+    text-align: center;
+    font-family: lato, Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+section.projects .container .buttom-projects .project-1 details{
+    text-align: center;
+    font-family: lato, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--ternary);
+}
+
+section.projects .container .buttom-projects .project-1 .p{
+    text-align: start;
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+}
