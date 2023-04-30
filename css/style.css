@@ -283,6 +283,7 @@ section.skills .container .grid-skills .skills-1 .skill-images{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-items: center;
+    grid-row-gap: 0.3rem;
     
     }
 
@@ -294,4 +295,130 @@ section.skills .container .grid-skills .skills-1 .h33{
     /* font-size: 1.2rem; */
     font-weight: 400;
     
+}
+
+section.contact{
+    background-color: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 85%, 0 100%);
+    padding: 6rem;
+    padding-bottom: 15rem;
+}
+
+section.contact .container h1{
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: var(--light);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+section.contact .container span{
+    color: var(--primary);
+}
+
+section.contact .container h3{
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    color: var(--ternary);
+    line-height: 2rem;
+    /* font-size: 1.2rem; */
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+section.contact .container .card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    justify-items: center;
+    margin-bottom: 4rem;
+}
+
+section.contact .container .card{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+section.contact .container .card img{
+    filter: brightness(0) invert(1);
+    width: 80px;
+    vertical-align: bottom;
+    margin-bottom: 3rem;
+}
+
+section.contact .container .card h3{
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+section.contact .container .card .detail{
+    color: var(--ternary);
+}
+
+section.contact .input-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+section.contact .input-wrap2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+section.contact input{
+    padding: 0.6rem;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    color: var(--ternary);
+    font-size: 0.9rem;
+    border: 2px solid var(--ternary);
+    transition: all 0.3s ease;
+    background-color: var(--dark);
+}
+
+section.contact input:hover, section.contact input:focus {
+    transform: scale(1.03);
+    background-color: var(--pure);
+    color: var(--dark);
+}
+
+section.contact .input-wrap2 textarea{
+    padding: 0.6rem;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    color: var(--ternary);
+    font-size: 0.9rem;
+    border: 2px solid var(--ternary);
+    transition: all 0.3s ease;
+    background-color: var(--dark);
+}
+
+section.contact .input-wrap2 textarea:hover, section.contact .input-wrap2 textarea:focus{
+    transform: scale(1.03);
+    background-color: var(--pure);
+}
+
+section.contact .input-wrap2 input{
+    margin-bottom: 2rem;
+}
+
+footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    /* background-color: var(--dark); */
+}
+
+footer img{
+    width: 200px;
+    justify-self: center;
+    margin-bottom: 3rem;
+}
+
+footer div{
+    display: grid;
+    justify-content: center;
 }
